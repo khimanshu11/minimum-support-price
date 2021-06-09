@@ -58,14 +58,15 @@ The datasets contain the following columns:
 |Month-year|Represents the month of a year Format: YYYY/MM/DD|
 |CommodityID|Represents a unique identification number of a commodity|
 |Production weight (in million tonnes)|Represents the production weight of a commodity (in tonnes)|
-|Labour_availability|Represents the following types of availability of labor in the market: <br/><br/> * Abundant <br/> * Low <br/> * Moderate|
-|Govt_policy_change|Represents whether there is any change in government policies with respect to a commodity <br/> Here, there are two values: <br/> * Yes: Represents that there is a policy change <br/> * No: Represents that there is no policy change|
-|Demand|Represents the level of demand of a commodity <br/> Here, there are five levels: <br/> * High: Represents a high demand for a specific period of time <br/> * Low: Represents a low demand for a specific period of time <br> * Long-run: Represents a demand that is expected to not fall for a long period of time <br> * Short-run: Represents a demand that is expected to fall after a short period of time <br> * Very-low: Represents almost no significant demand of a commodity|
+|Labour_availability|Represents the following types of availability of labor in the market: <br/> <ol><li> Abundant </li><li> Low </li><li> Moderate</li></ol>|
+|Govt_policy_change|Represents whether there is any change in government policies with respect to a commodity <br/> Here, there are two values: <ol> <li>Yes: Represents that there is a policy change</li><li> No: Represents that there is no policy change</li></ol>|
+|Demand|Represents the level of demand of a commodity <br/> Here, there are five levels: <br/><ul> <li> High: Represents a high demand for a specific period of time</li> <li>Low: Represents a low demand for a specific period of time </li> <li>Long-run: Represents a demand that is expected to not fall for a long period of time</li> <li>Short-run: Represents a demand that is expected to fall after a short period of time </li><li> Very-low: Represents almost no significant demand of a commodity</li></ul>|
 |Cost of production|Represents the cost of production of a commodity (in INR)|
 |Climatic factor 1 (masked)|Represents a climatic factor that can affect a commodity’s production, demand, or cost|
 |Climatic factor 2 (masked)|Represents a climatic factor that can affect a commodity’s production, demand, or cost|
 |Maximum price per kg|Represents the ceiling price set by the government with respect to a commodity (in INR)|
 |Minimum support price (in Rs/Quintal) (target)|Represents the minimum support price or floor price of a commodity|
+
 
 **test.csv**
 
